@@ -1,0 +1,13 @@
+h1 {
+  color: rgb(180, 180, 180);
+  position: absolute;
+  left: -170px;
+  transform: translateY(400%) rotateZ(90deg);
+  z-index: 10;
+}
+
+@media (max-width: 620px) {
+  h1 {
+    display: none;
+  }
+}
